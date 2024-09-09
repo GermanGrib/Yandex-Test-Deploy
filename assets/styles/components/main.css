@@ -155,7 +155,7 @@
 }
 
 .tournament-img {
-  max-width: 474px;
+  width: 474px;
   
   @media (max-width: 750px) {
     width: 335px;
