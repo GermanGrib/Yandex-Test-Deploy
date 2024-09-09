@@ -1,0 +1,14 @@
+.header {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: var(--header-height);
+}
+
+.header-logo {
+  padding: 26px 0;
+  
+  @media (max-width: 750px) {
+    padding: 15px 0;
+  }
+}

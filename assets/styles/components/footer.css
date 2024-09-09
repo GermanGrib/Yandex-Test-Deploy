@@ -1,0 +1,16 @@
+.footer {
+  display: flex;
+  padding: 40px 0 72px;
+  background-image: url("../../imgs/beige-background.jpg");
+  
+  @media (max-width: 750px) {
+    padding: 40px 0 60px;
+  }
+}
+
+.footer-text {
+  opacity: .6;
+  font-size: 1.6rem;
+  font-family: "Golos Text", sans-serif;
+  line-height: 19px;
+}

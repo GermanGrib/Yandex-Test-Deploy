@@ -1,0 +1,45 @@
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+body {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+  color: var(--primary-normal-color);
+  font-family: 'Merriweather', serif;;
+  min-width: 375px;
+  min-height: 100vh;
+  line-height: 24px;
+  opacity: 1;
+}
+
+main {
+  flex-grow: 1;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0;
+}
+
+.container {
+  max-width: 1222px;
+  width: 100%;
+  margin: 0 auto;
+  
+  @media (max-width: 1280px) {
+    padding: 0 20px;
+  }
+}
+
+section {
+  display: flex;
+}

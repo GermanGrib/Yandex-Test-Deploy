@@ -1,0 +1,15 @@
+@keyframes plane {
+  0% {
+    transform: rotate(25deg);
+  }
+  50% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(25deg);
+  }
+}
+
+.transformation-steps-img {
+  animation: plane 15s linear infinite;
+}

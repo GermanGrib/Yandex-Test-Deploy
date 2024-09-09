@@ -1,0 +1,45 @@
+.creeping-line {
+  padding: 18px 0;
+  background-color: var(--alert-normal-color);
+  color: var(--white-normal-color);
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  overflow: hidden;
+  
+  @media (max-width: 750px) {
+    padding: 7px 0;
+    font-size: 1.6rem;
+  }
+}
+
+@keyframes creeping-line {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.creeping-line__text {
+  white-space: nowrap;
+  animation: creeping-line 15s linear infinite;
+}
+
+@media (max-width: 750px) {
+  @keyframes creeping-line-mobile {
+    0% {
+      transform: translateX(100%);
+    }
+    50% {
+      transform: translateX(-200%);
+    }
+    100% {
+      transform: translateX(-400%);
+    }
+  }
+  
+  .creeping-line__text {
+    animation: creeping-line-mobile 12s linear infinite;
+  }
+}

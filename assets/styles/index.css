@@ -1,0 +1,19 @@
+@import "base/normolize.css";
+
+/*base*/
+@import "base/global.css";
+
+/*variables*/
+@import "variables/colors.css";
+@import "variables/other.css";
+
+/*components*/
+@import "components/header.css";
+@import "components/creeping-line.css";
+@import "components/main.css";
+@import "components/logo.css";
+@import "components/button.css";
+@import "components/link.css";
+@import "components/pagination.css";
+@import "components/footer.css";
+@import "components/plane.css";

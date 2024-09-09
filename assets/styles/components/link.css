@@ -1,0 +1,7 @@
+.link {
+  color: var(--link-normal-color);
+  font-size: 2rem;
+  font-family: "Golos Text", sans-serif;
+  line-height: 24px;
+  text-decoration: none;
+}

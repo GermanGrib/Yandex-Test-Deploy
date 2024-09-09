@@ -1,0 +1,16 @@
+:root {
+  --primary-normal-color: #313131;
+  
+  --white-normal-color: white;
+  --black-normal-color: #1F1F1F;
+  
+  --link-normal-color: #3057A2;
+  
+  --gray-normal-color: #D0D0D0;
+  
+  --alert-normal-color: #F54932;
+  
+  --hover-normal-color: #FBCE51;
+  
+  --disable-normal-color: #D6D6D6;
+}
